@@ -11,6 +11,7 @@
     <div class="container-1">
         <div class="wrapper">
             <header id="header">
+                <a class="burger-header"></a>
                 <nav class="menu">
                     <a class="menu-link" href="#">
                         <img src="/dest/img/i.png" alt="">
@@ -48,116 +49,90 @@
                         <div class="user-item user-class">6 класс</div>
                         <div class="user-item user-school">школа 453</div>
                     </div>
-                    
                 </div>
-                <button class="info-find"><img src="/dest/img/find.png">Найти программу</button>
+                <button class="info-find"><img src="/dest/img/find.png"> <p>Найти программу</p></button>
             </section>
         </div>
     </div>
     <div class="container-3">
         <div class="wrapper">
             <section class="profile">
-                
-                <div class="profile-main">
-                    <ul class="profile-main-navigation">
-                        <li><a href="">Профиль</a></li>
-                        <li><a href="">Мои программы</a></li>
-                        <li><a href="">Родители и учителя</a></li>
-                        <li><a href="">Настройки профиля</a></li>
+                <div class="profile-navigation-wrapper">
+                    <ul class="profile-navigation">
+                            <li><a href="">Профиль</a></li>
+                            <li><a href="">Мои программы</a></li>
+                            <li><a href="">Родители и учителя</a></li>
+                            <li><a href="">Настройки профиля</a></li>
                     </ul>
-                    <div class="profile-main-content">
-                        <h3 class="content-header">Настройки профиля</h3>
-                        <div class="content-middle">
-                            <div class="user-profile-photo">
-                                <div class="photo-wrapper">
-                                    <img src="/dest/img/imgUser.png" alt="">
-                                </div>
-                                <a href="#" class="change-photo">Сменить фото</a>
+                </div>
+                    
+                <div class="profile-content">
+                    <h3 class="content-header">Настройки профиля</h3>
+                    <div class="content-middle">
+                        <div class="user-profile-photo">
+                            <div class="photo-wrapper">
+                                <img src="/dest/img/imgUser.png" alt="">
                             </div>
-                            <div class="user-profile-info">
-                                <div class="info-wrapper">
-                                    <p class="info-name info-user">Иванов Константин Николаевич</p>
-                                    <p class="info-year info-user">30.05.2010</p>
-                                    <p class="info-school info-user">Школа 154</p>
-                                    <p class="info-class info-user">7 Класс 5В</p>
-                                    <p class="info-tel info-user">+7 234 443 27 45</p>
-                                    <p class="info-mail info-user">aleksey234@mail.ru</p>
-                                    <p class="info-fb info-user">Facebook: alex_ivanov</p>
-                                    <p class="info-vk info-user">Vkontkte: alex_ivanov</p>
-                                    <p class="info-inst info-user">Instagram: alex_ivanov</p>
-                                </div>
-                                <div class="check-wrapper">
-                                    <label class="custom-checkbox" for="spamMail">Отключить рассылку</label>
-                                    <input type="checkbox" name="" id="spamMail">
-                                    <div class="checkdiv"></div>
-                                </div>
-                                
-                                <a class="info-user info-delete">Удалить аккаунт</a>
+                            <a href="#" class="change-photo">Сменить фото</a>
+                        </div>
+                        <div class="user-profile-info">
+                            <div class="info-wrapper">
+                                <p class="info-name info-user">Иванов Константин Николаевич</p>
+                                <p class="info-year info-user">30.05.2010</p>
+                                <p class="info-school info-user">Школа 154</p>
+                                <p class="info-class info-user">7 Класс 5В</p>
+                                <p class="info-tel info-user">+7 234 443 27 45</p>
+                                <p class="info-mail info-user">aleksey234@mail.ru</p>
+                                <p class="info-fb info-user">Facebook: alex_ivanov</p>
+                                <p class="info-vk info-user">Vkontkte: alex_ivanov</p>
+                                <p class="info-inst info-user">Instagram: alex_ivanov</p>
                             </div>
-                            
-                            <div class="profile-progress">
-                                <h4 class="profile-progress-full">Заполненность профиля</h4>
-                                <div class="profile-progress-circle">
-                                    <div class="number-circle">94%</div>
-                                </div>
-                                <div class="profile-progress-data">
-                                    <div class="data-header">Персональные данные:
-                                        <div class="data-wrap">
-                                            <div class="str1 string-progress1"></div>
-                                            <div class="num1">90%</div>
-                                        </div>
-                                    </div>
-                                    <div class="data-test">Тесты:
-                                        <div class="data-wrap">
-                                            <div class="str2 string-progress2"></div>
-                                            <div class="num2">45%</div>
-                                        </div>
-                                    </div>
-                                    <div class="data-achievments">Достижения:
-                                        <div class="data-wrap">
-                                            <div class="str3 string-progress3"></div>
-                                            <div class="num3">89%</div>   
-                                        </div>
+                            <div class="check-wrapper">
+                                <label class="custom-checkbox" for="spamMail">Отключить рассылку</label>
+                                <input type="checkbox" name="" id="spamMail">
+                                <div class="checkdiv"></div>
+                            </div>
+                            <a class="info-user info-delete">Удалить аккаунт</a>
+                        </div>
+                        <div class="btn-wrapper">
+                            <button class="user-button user-profile-edit"> <img src="/dest/img/pencil.png" alt=""> Редактировать</button>
+                            <button class="user-button user-profile-change"> <img src="/dest/img/copy.png" alt=""> Изменить пароль</button>
+                        </div>
+                        
+                        <div class="profile-progress">
+
+                            <h4 class="profile-progress-full">Заполненность профиля</h4>
+
+                            <div class="profile-progress-circle">
+                                <div class="number-circle">94%</div>
+                            </div>
+
+                            <div class="profile-progress-data">
+                                <div class="data-header">Персональные данные:
+                                    <div class="data-wrap">
+                                        <div class="str1 string-progress1"></div>
+                                        <div class="num1">90%</div>
                                     </div>
                                 </div>
+                                <div class="data-test">Тесты:
+                                    <div class="data-wrap">
+                                        <div class="str2 string-progress2"></div>
+                                        <div class="num2">45%</div>
+                                    </div>
+                                </div>
+                                <div class="data-achievments">Достижения:
+                                    <div class="data-wrap">
+                                        <div class="str3 string-progress3"></div>
+                                        <div class="num3">89%</div>   
+                                    </div>
+                                </div>
                             </div>
-                            <div class="btn-wrapp">
-                                <button class="user-button user-profile-edit"> <img src="/dest/img/pencil.png" alt=""> Редактировать</button>
-                                <button class="user-button user-profile-change"> <img src="/dest/img/copy.png" alt=""> Изменить пароль</button>
-                            </div>
-                            
                         </div>
 
                     </div>
+
                 </div>
-                <!-- <div class="profile-progress">
-                    <h4 class="profile-progress-full">Заполненность профиля</h4>
-                    <div class="profile-progress-circle">
-                        <div class="number-circle">94%</div>
-                    </div>
-                    <div class="profile-progress-data">
-                        <div class="data-header">Персональные данные:
-                            <div class="data-wrap">
-                                <div class="str1 string-progress1"></div>
-                                <div class="num1">90%</div>
-                            </div>
-                        </div>
-                        <div class="data-test">Тесты:
-                            <div class="data-wrap">
-                                <div class="str2 string-progress2"></div>
-                                <div class="num2">45%</div>
-                            </div>
-                        </div>
-                        <div class="data-achievments">Достижения:
-                            <div class="data-wrap">
-                                <div class="str3 string-progress3"></div>
-                                <div class="num3">89%</div>   
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- <button class="user-button2 user-profile-edit2"> <img src="/dest/img/pencil.png" alt=""> Редактировать</button>
-                <button class="user-button2 user-profile-change2"> <img src="/dest/img/copy.png" alt=""> Изменить пароль</button> -->
+                </div>
             </section>
         </div>
     </div>
